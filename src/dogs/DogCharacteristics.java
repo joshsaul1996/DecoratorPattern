@@ -6,4 +6,6 @@ public interface DogCharacteristics {
 	String size();
 	String description();
 	
+	
+	
 }

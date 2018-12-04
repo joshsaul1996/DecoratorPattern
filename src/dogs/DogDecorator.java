@@ -1,11 +1,11 @@
 package dogs;
 
 public abstract class DogDecorator implements DogCharacteristics{
-	protected DogCharacteristics decoratedDoggo;
+	public DogCharacteristics decoratedDoggo;
 	
-	public DogDecorator(DogCharacteristics decorateddoggo) {
+	public DogDecorator(DogCharacteristics vDecoratedDoggo) {
 		super();
-		this.decoratedDoggo = decoratedDoggo;
+		this.decoratedDoggo = vDecoratedDoggo;
 	}
 	
 	

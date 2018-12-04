@@ -1,6 +1,6 @@
 package dogs;
 
-public abstract class Dogs {
+public class Dogs {
 	
 	
 	//////////////////////////Attributes////////////////////////

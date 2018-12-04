@@ -1,6 +1,9 @@
 package dogs;
 
-public class Newfoundland implements DogCharacteristics {
+public class Newfoundland extends Dogs implements DogCharacteristics {
+	
+	public Newfoundland(String vName, String vGender) {
+		super(vName, vGender);}
 	
 	public String breedPurpose(){
 		return("Working, Rescue");

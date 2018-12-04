@@ -1,6 +1,10 @@
 package dogs;
 
-public class Labrador implements DogCharacteristics {
+public class Labrador extends Dogs implements DogCharacteristics {
+	
+	public Labrador(String vName, String vGender) {
+		super(vName, vGender);
+	}
 	
 	public String breedPurpose(){
 		return("Gun Dog");
