@@ -1,7 +1,7 @@
 package dogs;
 
 public abstract class DogDecorator implements DogCharacteristics{
-	public DogCharacteristics decoratedDoggo;
+	protected DogCharacteristics decoratedDoggo;
 	
 	public DogDecorator(DogCharacteristics vDecoratedDoggo) {
 		super();
